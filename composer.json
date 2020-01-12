@@ -1,0 +1,19 @@
+{
+  "name": "fatkulnurk/helper",
+  "description": "A simple helper for php",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Fatkul Nur Koirudin",
+      "email": "fatkulnur@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {"Fatkulnurk\\Helper": "src/"}
+  },
+  "require": {
+    "php": "^7.2",
+    "ext-json": "*"
+  }
+}
